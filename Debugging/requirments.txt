@@ -1,0 +1,6 @@
+langchain-groq
+langchain-mcp-adapters
+langchain
+mcp
+langgraph
+langgraph-cli[inmem]
