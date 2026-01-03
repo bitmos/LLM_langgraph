@@ -78,6 +78,7 @@ GROQ_API_KEY=your_api_key_here
 ### Multi-Agent System Design
 
 The repository implements an agent architecture where specialized agents collaborate under supervisor coordination.
+<img width="537" height="581" alt="image" src="https://github.com/user-attachments/assets/be41f2d7-f4c0-48bc-a02f-a6ad718951c3" />
 
 ## 🔧 Core Components
 
@@ -126,18 +127,6 @@ Agents utilize function-calling capabilities to interact with external systems a
 ### Conditional Routing
 
 The supervisor implements intelligent routing logic to direct tasks to the most appropriate specialist agent.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub.
 
 ---
 
