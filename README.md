@@ -10,26 +10,23 @@ LLM_langgraph is a comprehensive implementation of advanced Large Language Model
 LLM_langgraph/
 │
 ├── basic_chatbot/              # Foundational single-agent chatbot implementation
-│   ├── chain.py                # Core conversation chain implementation
-│   ├── graph.py                # LangGraph state machine definition
-│   └── app.ipynb               # Interactive notebook demonstration
-│
+│   └── basic_chatbot.ipynb     # Core conversation chain implementation
+│                               # LangGraph state machine definition
+│ 
 ├── Agents/                     # Multi-agent system components
-│   ├── researcher.py           # Research specialist agent
-│   ├── writer.py               # Content creation agent
-│   ├── coder.py                # Code generation agent
-│   ├── critic.py               # Quality evaluation agent
-│   └── supervisor.py           # Task orchestration agent
+│   └── multiagent.ipynb        # Research specialist agent
+│                               # Content creation agent
+│                               # Task orchestration agent
 │
-├── Debugging/                  # Workflow debugging utilities
-│   ├── tracer.py               # Execution tracing module
-│   ├── visualizer.py           # Graph visualization tools
-│   └── state_inspector.ipynb  # State examination notebook
+├── Debugging/                 # Workflow debugging utilities using LangSmith
+│   ├── agent.py               # Execution tracing module
+│   ├── debugging.ipynb        # Graph visualization tools
+│   └── langgraph.json         # State examination notebook
 │
 ├── mcp_demo/                   # Model Context Protocol integration
 │   ├── server.py               # MCP server implementation
-│   ├── clients/                # Client implementations
-│   └── tools/                  # External tool definitions
+│   ├── weather.py              # Client implementations
+│   └── client.py                  # External tool definitions
 │
 ├── requirements.txt            # Project dependencies
 └── .gitignore                  # Version control exclusion rules
